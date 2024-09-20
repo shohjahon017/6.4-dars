@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #66b3ff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: scale(1.02);
+}
+
+label {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+textarea {
+  resize: none;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  border: 1px solid rgb(135, 219, 122);
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(139, 226, 163);
+}
+.card:hover {
+  transition: all 0.5s;
+  transform: scale(1.05);
+  background-color: rgb(104, 212, 117);
+}
+select {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
